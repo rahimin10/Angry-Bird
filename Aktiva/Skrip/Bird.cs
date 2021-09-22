@@ -7,11 +7,7 @@ using UnityEngine.Events;
 public class Bird : MonoBehaviour
 {
     public enum BirdState
-    {
-        Idle,
-        Thrown,
-        HitSomething
-    };
+    { Idle, Thrown, HitSomething };
 
     public GameObject parent;
     public Rigidbody2D rigidBody;
